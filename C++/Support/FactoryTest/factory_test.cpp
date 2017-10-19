@@ -9,4 +9,5 @@ PowerupStateMachine::PowerupStateMachine() : QObject(parent)
     if ( !fctTestDone )
         m_state = FactoryStep1;
     m_alarms = alarms;
+    m_state = Normal;
 }
